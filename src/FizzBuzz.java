@@ -3,12 +3,13 @@
  */
 class FizzBuzz {
 
-    public static void main(String[] args) {
+    public static void dofizz()
+    {
         int i = 0;
         loopi(i);
     }
 
-    private static void loopi(int i) {
+    public static void loopi(int i) {
         while (i < 100){
 
             // Find out which numbers divide i.
